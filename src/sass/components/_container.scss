@@ -67,8 +67,8 @@
 .box-menu-option {
   position: absolute;
   top: 70px;
-  right: 0;
-  width: 165px;
+  right: 20px;
+  width: 178px;
   background-color: white;
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
   padding: 1em;
@@ -114,6 +114,7 @@
 .modal-content {
   animation-name: open;
   animation-duration: 0.3s;
+  background-color: #fff;
 }
 
 @keyframes open {
@@ -239,7 +240,7 @@
 
 .modal-content{
   width: 800px;
-  border: 1px solid grey;
+  box-shadow: 0px 4px 4px rgba(218, 201, 193, 0.5);
   border-radius: 16px;
   padding: 2em;
 }

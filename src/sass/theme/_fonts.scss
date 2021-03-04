@@ -1,0 +1,110 @@
+.title-h4 {
+    color: $gray-40;
+    font-family: $omnes-semibold;
+    font-size: 24px;
+}
+
+.link-login {
+    color: $green-fusion !important;
+    text-decoration:underline !important;
+    cursor: pointer;
+}
+
+.required-message {
+    margin-top: 5px;
+    color: $naranja-ngr;
+    text-align: right;
+    font-size: 12px;
+}
+
+.text-body {
+    color: $gray-40;
+    font-family: $omnes-regular;
+    font-size: 18px;
+}
+
+.text-body--sb16 {
+    color: $gray-40;
+    font-family: $omnes-semibold;
+    font-size: 16px;
+}
+
+.text-body--sb14 {
+    color: $gray-40;
+    font-family: $omnes-regular;
+    font-size: 14px;
+}
+
+.text-body--sb16--g10 {
+    font-family: $omnes-semibold;
+    font-size: 16px;
+}
+
+.text-title--24 {
+    font-family: $omnes-semibold;
+    font-size: 22px;
+}
+
+.text-title--comprobantes {
+    font-family: $omnes-semibold;
+    font-size: 20px;
+}
+
+.text-body--sb24--g40 {
+    color: $gray-40;
+    font-family: $omnes-semibold;
+    font-size: 20px;
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+.text-bold {
+    font-family: $omnes-bold;
+    font-size: 20px;
+}
+
+.orange-text {
+    color: $melon-ngr;
+}
+
+.red-text {
+    color: $dark-red-fp;
+}
+
+.green-text {
+    color: $green-fp;
+}
+
+.gray-40-text {
+    color: $gray-40;
+}
+
+.red-light-text {
+    color: $naranja-ngr;
+}
+
+.title-form {
+    .text-body {
+        width: 300px;
+    }
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.title-recipe-mobile{
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        text-align: left;
+    }
+}

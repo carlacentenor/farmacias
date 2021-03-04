@@ -1,0 +1,52 @@
+.img-fluid {
+    width: 100%;
+}
+
+.icon-file-edit {
+    font-size: 20px;
+}
+
+.icon-arrow {
+    color: $melon-ngr;
+    @media screen and (min-width: 768px) {
+        color: $gray-10;
+    }
+}
+
+.back-icon {
+    width: 20px;
+    position: relative;
+    top: 6px;
+}
+
+.logo-app{
+    width: 175px;
+}
+
+.logo-navbar{
+    width: 100px;
+}
+
+.icon-list{
+    top: -5px;
+}
+
+.login-img{
+    width: 350px;
+    padding-right: 12em;
+}
+
+.icon-btn{
+    margin-right: 10px;
+    
+}
+
+.pos-icon-dash{
+    position: relative;
+    top:4px;
+}
+
+
+.login-img-change{
+    width: 125px;
+}

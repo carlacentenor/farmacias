@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+// @import '~bootstrap/scss/bootstrap';
+@import "sass/config/variables";
+@import "sass/base/base";
+@import "sass/layout/align";
+@import "sass/layout/grid";
+@import "sass/layout/section-hide";
+@import "sass/theme/colors";
+@import"sass/theme/fonts";
+@import "sass/components/form";
+@import "sass/components/buttons";
+@import "sass/components/pictures";
+@import "sass/components/container";
+@import "sass/components/table";

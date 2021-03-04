@@ -1,0 +1,25 @@
+.container-table {
+    @media screen and (max-width: 768px) {
+        overflow-x: scroll;
+    }
+}
+
+table {
+    width: 100%;
+    margin-top: 3em;
+    color: $gray-40;
+    border-collapse: collapse;
+    th,
+    td {
+        border-bottom: 1px solid $gray-10;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        text-align: left;
+        border-bottom: 1px solid $gray2-fp;
+    }
+    td {
+        text-align: left;
+    }
+}

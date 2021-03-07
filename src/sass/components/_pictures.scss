@@ -32,6 +32,7 @@
 }
 
 .login-img{
+    box-sizing: content-box;
     width: 350px;
     padding-right: 12em;
 }
@@ -43,15 +44,15 @@
 
 .pos-icon-dash{
     position: relative;
-    top:4px;
+    top:-4px;
 }
 
 
 .login-img-change{
-    width: 125px;
+    width: 110px;
 }
 
 .icon-back{
     position: relative;
-    top: 5px;
+    top: -1px;
 }

@@ -13,6 +13,8 @@
   }
 }
 
+
+
 .selection-file {
   color: $gray-40;
   border-bottom: 1px solid $gray-10;
@@ -74,6 +76,7 @@
   padding: 1em;
   font-family: $omnes-regular;
   color: $gray-60;
+  box-sizing: content-box;
 }
 
 .container-upload {
@@ -142,6 +145,7 @@
   background-color: #fff;
   border-radius: 10px;
   padding: 1em 2em;
+  box-sizing: content-box;
 }
 
 .line-subtitle {
@@ -218,7 +222,7 @@
   box-shadow: 0px 4px 4px rgba(125, 128, 130, 0.15);
   border-radius: 16px;
   padding: 1em;
-  width: 30%;
+  width: 32.5%;
   color: $gray-40;
 }
 
@@ -238,9 +242,10 @@
   width: 70%;
 }
 
-.modal-content{
-  width: 800px;
+.modal-content-new{
+  width: 875px;
   box-shadow: 0px 4px 4px rgba(218, 201, 193, 0.5);
   border-radius: 16px;
   padding: 2em;
+  background-color: #fff;
 }

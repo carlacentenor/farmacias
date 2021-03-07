@@ -11,7 +11,7 @@
 }
 
 .required-message {
-    margin-top: 5px;
+   
     color: $naranja-ngr;
     text-align: right;
     font-size: 12px;
@@ -115,8 +115,21 @@
 }
 .link-menu{
     transition: .5s;
+    
     &:hover{
         color: $dark-red-fp;
         text-decoration: underline;
     }
+}
+
+.link-style:hover{
+    text-decoration: none;
+    color:  $dark-red-fp;
+    font-weight: bold;
+}
+
+.link-back:hover{
+    text-decoration: none;
+    color:  $green-fp;
+    font-weight: bold;
 }

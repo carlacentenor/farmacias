@@ -25,7 +25,7 @@
   justify-items: center;
 
   @media screen and (min-width: 768px) {
-    grid-template-rows: 0.6fr .9fr 0.5fr;
+    grid-template-rows: 0.6fr 1.2fr 0.5fr;
     height: 80vh;
   }
 }
@@ -160,7 +160,7 @@
 .grid-card-companies {
   display: flex;
   justify-content: flex-start;
-
+box-sizing: content-box;
   flex-wrap: wrap;
   padding: 0 1em;
 

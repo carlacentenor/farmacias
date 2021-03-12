@@ -2,20 +2,29 @@
   <div>
     <img src="assets/images/logo-fp.png" alt="logo-fp">
   </div>
-  <div class="navbar-option-grid">
+  <div class="navbar-option-grid-dash">
+    <span class="position-relative">
+      <img class="pointer" src="assets/images/calendar.svg" alt="calendar">
+      <div class="circle-pop position-absolute"><span>1</span></div>
+    </span>
+    <span class="position-relative">
+      <img class="pointer" src="assets/images/notification.svg" alt="notification">
+      <div class="circle-pop position-absolute"><span>2</span></div>
+    </span>
+   
     <span class="text-body--sb16">Pedro Chiok</span>
     <span class="text-center"><img src="assets/images/user.svg" alt="user"></span>
     <span class="pointer"><img src="assets/images/menu-dot.svg" alt="menu"></span>
   </div>
   <!-- navbar Menu Option -->
-  <div class="box-menu-option pointer">
+  <!-- <div class="box-menu-option pointer">
     <div class="pl-8 pr-8 pt-8 link-menu "><img class="pr-8" src="assets/images/tools.svg" alt="">Administrar Usuarios
     </div>
     <div class="pl-8 pr-8 pt-16 link-menu"><img class="pr-8" src="assets/images/dash-icon.svg" alt="">Dashboard</div>
     <div class="pl-8 pr-8 pt-16 link-menu"><img class="pr-8" src="assets/images/key.svg" alt="">Cambiar contraseña</div>
     <div class="pl-8 pr-8 pt-16 link-menu"><img class="pr-8" src="assets/images/config.svg" alt="">Ajuste de Sistema</div>
     <div class="pl-8 pr-8 pt-16 link-menu"><img class="pr-8" src="assets/images/logout.svg" alt="">Cerrar Sesión</div>
-  </div>
+  </div> -->
 </header>
 <section class="bg-dashboard">
   <div class="title-section text-title--24 red-text pt-24 mb-24 line-subtitle text-left">
@@ -24,10 +33,10 @@
   </div>
   <div class="px-3 ">
     <div class="filter-container ">
-      <div class="d-flex align-items-center  mr-24">
-        <p class="title-filter text-body--sb16--g10 gray-40-text mb-0 mr-24">Compañia :</p>
+      <div class="d-flex align-items-center  mr-16">
+        <p class="title-filter text-body--sb16--g10 gray-40-text mb-0 mr-24">Sociedad:</p>
 
-        <div class="form-control-select input-home ">
+        <div class="form-control-select  ">
 
           <select class="form-select">
             <option>Laboratorio Pruebas de capsulas</option>
@@ -38,10 +47,16 @@
         </div>
       </div>
 
-      <div class="d-flex  align-items-center ml-24 mr-24">
-        <p class="title-filter text-body--sb16--g10 gray-40-text mb-0 mr-24">Fecha :</p>
+      <div class="d-flex  align-items-center ml-16 mr-24">
+        <p class="title-filter text-body--sb16--g10 gray-40-text mb-0 mr-16">Fecha:</p>
         <input class="gray-40-text filter-date" type="date" name="" id="">
       </div>
+      
+      <div class="d-flex  align-items-center ml-16 mr-24">
+        
+        <input class="gray-40-text filter-date" type="date" name="" id="">
+      </div>
+
       <div class="ml-24">
         <button class="button button-filter btn-primary-red">Filtrar</button>
       </div>
